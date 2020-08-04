@@ -1,3 +1,20 @@
 .MainPage {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
   padding: 0.4rem 1rem;
+  width: 80%;
+}
+
+.MainPage h2 {
+  text-align: center;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu h3 {
+  text-align: center;
 }
